@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Credenza Bank — Customer Portal (SharedBank)
 
 Credenza Bank is configured as bank `P647` with IFSC `KEER0P6L3VX` and its bank-owned Firebase project ID `credenza-bank`. This project preserves the existing React + Material UI + Vite stack and the existing SharedBank Worker integration. The customer portal has been redesigned while retaining the actual SharedBank sign-in, dashboard, directory and transfer API calls.
@@ -102,3 +103,12 @@ Never test against production/shared financial records. Use isolated synthetic a
 To complete the assignment, Credenza needs a bank-owned backend/API in its own Firebase project for customer registration, KYC, admin authentication and authorization, customer/account administration, beneficiary management, loans, portfolio, email outbox, audit logs and transfer-limit administration. The SharedBank central directory must remain read-only from the customer portal and must not be overwritten by this project. All financial balance changes must remain server-side, use integer paise, and create immutable debit/credit ledger records.
 
 The Admin portal should be added only when the corresponding authenticated Admin endpoints exist; a browser-only Admin dashboard would be cosmetic and would not safely perform banking operations.
+=======
+# Bank portal template
+
+Register the bank with the SharedBank operator. Set its bank ID, name, IFSC and branding in `src/bank-config.js`. Set the common HTTPS Worker URL in `src/cloudflare-config.js`, or set the repository variable `VITE_X42_API_URL`.
+
+On Node.js 22 or newer, run `npm ci` and `npm run dev` to work locally. The portal uses the bank's Firebase test account and displays live synthetic balances from the Worker.
+
+Publish this folder to a GitHub repository and enable its GitHub Pages source with **GitHub Actions**. The supplied workflow deploys the `main` branch.
+>>>>>>> 678d79545863d15ecabf859bc8c50ddc8da92df7

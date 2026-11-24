@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview --host 0.0.0.0",
     "test": "node --test"
+=======
+    "preview": "vite preview --host 0.0.0.0"
+>>>>>>> 678d79545863d15ecabf859bc8c50ddc8da92df7
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

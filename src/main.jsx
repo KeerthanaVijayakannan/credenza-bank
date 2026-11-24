@@ -5,7 +5,11 @@ import LiveBank from './LiveBank';
 import bank from './bank-config';
 import './style.css';
 
+<<<<<<< HEAD
 document.title = bank.name + ' | Digital Banking';
+=======
+document.title = bank.name + ' | Account portal';
+>>>>>>> 678d79545863d15ecabf859bc8c50ddc8da92df7
 document.documentElement.dataset.bank = bank.theme;
 const theme = createTheme({
   palette: { primary: { main: bank.color } },
