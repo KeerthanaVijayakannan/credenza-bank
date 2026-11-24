@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env*
+!.env.example
+
+# Local bank-owner configuration (contains test account identifiers)
+bank-P647.json

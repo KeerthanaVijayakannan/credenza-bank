@@ -1,0 +1,3 @@
+/* Credenza's live banking experience is styled in style.css. */
+.live-bank-layout .MuiAlert-root{border-radius:9px;font-size:12px}
+.live-bank-layout .MuiAlert-message{overflow-wrap:anywhere}
